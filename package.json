@@ -24,5 +24,10 @@
   },
   "dependencies": {
     "mathjs": "^7.1.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   }
 }
