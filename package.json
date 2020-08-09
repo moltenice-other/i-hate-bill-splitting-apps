@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "standard && jest"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,12 @@
     "url": "https://github.com/moltenice-other/i-hate-bill-splitting-apps/issues"
   },
   "homepage": "https://github.com/moltenice-other/i-hate-bill-splitting-apps#readme",
+  "dependencies": {
+    "mathjs": "^7.1.0"
+  },
   "devDependencies": {
     "jest": "^26.2.2",
     "standard": "^14.3.4"
-  },
-  "dependencies": {
-    "mathjs": "^7.1.0"
   },
   "standard": {
     "env": [
