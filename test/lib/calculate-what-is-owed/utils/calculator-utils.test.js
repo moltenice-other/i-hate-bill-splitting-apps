@@ -1,4 +1,4 @@
-const { getExpression, getEntries } = require('../../lib/calculate-what-is-owed')
+const { getExpression, getEntries } = require('../../../../lib/calculate-what-is-owed/utils/calculator-utils')
 const outdent = require('outdent')
 
 test('I can get the expression to calculate from the entry', () => {
