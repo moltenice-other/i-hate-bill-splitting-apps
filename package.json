@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/moltenice-other/i-hate-bill-splitting-apps#readme",
   "dependencies": {
-    "mathjs": "^7.1.0"
+    "mathjs": "^7.1.0",
+    "outdent": "^0.7.1"
   },
   "devDependencies": {
     "jest": "^26.2.2",
